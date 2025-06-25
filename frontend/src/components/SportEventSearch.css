@@ -1,0 +1,58 @@
+.sport-event-search {
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 1rem auto;
+  max-width: 600px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+.sport-event-search h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.form button {
+  padding: 10px;
+  border: none;
+  background-color: #00a8ff;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.results {
+  margin-top: 1rem;
+}
+
+.event-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  background-color: white;
+}
+
+.buy-button {
+  margin-top: 10px;
+  background-color: #44bd32;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}

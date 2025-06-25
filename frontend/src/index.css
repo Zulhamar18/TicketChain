@@ -1,0 +1,66 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f7fa;
+  color: #333;
+}
+
+.app {
+  text-align: center;
+  padding: 2rem;
+}
+
+.app-header {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+
+.app-logo {
+  width: 120px;
+  margin-bottom: 1rem;
+}
+
+/* Manual fallback styling */
+.btn-order {
+  padding: 0.75rem 1.5rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-order:hover {
+  background-color: #005fd2;
+}
+
+/* Tailwind utility class (jika Tailwind digunakan) */
+.btn-order {
+  @apply px-5 py-2 bg-purple-600 text-white font-bold rounded-xl hover:bg-purple-700 transition;
+}
+
+/* Dark theme styles */
+body.dark-theme {
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+body.dark-theme .app-header {
+  background-color: #2c2c2c;
+  color: #fff;
+}
+
+body.dark-theme .btn-order {
+  background-color: #444;
+  color: white;
+}
+
+body.dark-theme .btn-order:hover {
+  background-color: #666;
+}
